@@ -1,2 +1,5 @@
-<h1>Lists#show</h1>
-<p>Find me in app/views/lists/show.html.erb</p>
+<h1><%= @list.name %></h1>
+
+<%= link_to 'Ajouter un film à cette liste', new_list_bookmark_path %>
+
+<%= link_to 'Revenir à mon index de listes', lists_path %>
